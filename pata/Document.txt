@@ -1,0 +1,17 @@
+http://pata.dexignlab.com/xhtml/
+
+
+---color---
+purple:- #8d55fd
+
+
+---Fonts---
+Roboto
+
+
+---Container---
+1170px
+
+---Icon---
+Fontawesome
+
