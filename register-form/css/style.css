@@ -1,31 +1,27 @@
 .first {
     background-color: white;
-
     width:  350px;
     height: 550px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
     margin-top: 20px;
-  }
-.second{
+}
 
+.second{
     background-color: rgb(64, 224, 72);
     width: 350px;
     height: 100px;
     margin-top: -15px;
     margin-left: -15px;
     border-radius: 40px;
-
 }
 
 .sign{
-
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 37px;
-
 }
 
 @keyframes bounce {
@@ -34,31 +30,28 @@
     60% {transform: translateY(-15px);}
     30%{
         letter-spacing: 20px;
-
     }
   }
-  
 
-  .animated {
+.animated {
     animation-duration: 2.5s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-  }
+}
 
-  .bounce {
-    animation-name: bounce;
-  }
+.bounce {
+	animation-name: bounce;
+}
   
 
 .username{
-
     background-color:white;
     width: 265px;
     height: 40px;
     margin-left: 27px;
     margin-top: 22px;
     border:0;	
-
+	transition-duration:0.7s;
 }
 
 .password{    
@@ -67,20 +60,18 @@
     height: 40px;
     margin-left: 27px;
     margin-top:22px;
-
+	transition-duration:0.7s;
 }
+
 .input100.validate-input {
     padding-left: 0;
 }
 
-
 .last{
-
     padding-top: 70px;
 }
 
 .signupnow{
-
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 60px;
@@ -88,39 +79,34 @@
     height: 30px;
     padding-left: 12px;
     padding-top: 3px;
-
 }
-.name{
 
-    
+.name{ 
     background-color:#ebebeb;
     width: 265px;
     height: 40px;
     margin-left: 27px;
     margin-top: 22px;
+	transition-duration:0.7s;
 }
+
 .signin{
     width: 265px;
     height: 40px;
     margin-top: 20px;
     margin-left: 12px;
     border-radius: 40px     ;
-
 }
 
-
 .username:hover{
-
-    border: 1px solid rgb(64, 224, 72);
+	box-shadow:0 0 5px 2px rgba(0,0,0,0.3);
 }
 
 .password:hover{
-
-    border: 1px solid rgb(64, 224, 72);
+	box-shadow:0 0 5px 2px rgba(0,0,0,0.3);
 }
 .name:hover{
-
-    border: 1px solid rgb(64, 224, 72);
+    box-shadow:0 0 5px 2px rgba(0,0,0,0.3);
 }
 
 .input100 {
