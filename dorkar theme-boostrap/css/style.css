@@ -1393,7 +1393,12 @@ footer .main-footer{
 
 
 
-
+@media (max-width: 580px){
+	.top-header{
+		display:none;
+	}
+	
+}
 
 
 
