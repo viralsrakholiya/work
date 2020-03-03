@@ -1,3 +1,6 @@
+html{
+	scroll-behavior:smooth;	
+}
 *{
 	box-sizing:border-box;
 }
@@ -51,6 +54,20 @@ a:hover{
 	margin-left:-15px;
 }
 
+#mybtn{
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	outline:none;
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	padding:0px 15px;
+	border-radius:3px;
+	color:#fff;
+	background: linear-gradient(45deg, #18469a, #6493e7);
+  cursor: pointer;
+}
 /* default css close */
 
 /* heading */
@@ -195,29 +212,6 @@ a{
 }
 /* navigation hover effect start */
 
-.header-row .active:before{	
-	position: absolute;
-    content: "";
-    top: 0;
-    transform: translateY(0%);
-    left: 0;
-    width: 100%;
-    height: 2px;
-    opacity: 1;
-    background: linear-gradient(45deg, #18469a, #6493e7);
-}
-
-.header-row .active:after{	
-	position: absolute;
-    content: "";
-	bottom:0;
-    transform: translateY(0%);
-    left: 0;
-    width: 100%;
-    height: 2px;
-    opacity: 1;
-    background: linear-gradient(45deg, #18469a, #6493e7);
-}
 
 .nav-link:before{
 	position: absolute;
@@ -231,8 +225,7 @@ a{
     transition: 0.8s;
 }
 
-nav li a:hover:before{
-  
+nav li a:hover:before{  
 	background: linear-gradient(45deg, #18469a, #6493e7);
     width: 100%;
     height: 2px;
@@ -1338,6 +1331,20 @@ footer .links ul li i{
 		display:none;
 	}
 	
+	.nav-link:before{
+		width:60px;
+	}
+	.nav-link:after{
+		width:60px;
+	}
+	nav li a:hover:before{
+		width:60px;
+	}
+	nav li a:hover:after{
+		width:60px;
+	}
+
+
 	.navbar{
 		margin-top:15px;
 	}
@@ -1361,7 +1368,6 @@ footer .links ul li i{
 	.button-part{
 		justify-content:center;
 	}
-	
 	
 	.features{
 		padding-top:60px;
@@ -1543,7 +1549,7 @@ footer .links ul li i{
 	}
 	footer{
 		padding-top:60px;
-		background-image:url("../images/section-bg.png");
+		background-image:url('../images/section-bg.png');
 		background-position:center center;
 		background-repeat:no-repeat;
 		background-size:cover;
@@ -1559,7 +1565,14 @@ footer .links ul li i{
 		padding:0 20px;
 		margin-bottom:50px;
 	}
+	footer .main--footer a{
+		color:#fff;
+	}
 }
+
+
+
+
 
 
 

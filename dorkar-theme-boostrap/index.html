@@ -5,6 +5,8 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<link href="images/favicon.png" rel="icon" type="icon/image" />
 	
+	<script src="js/main.js"></script>
+	
 	
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -79,13 +81,13 @@
 				  
 						  <div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav ml-auto">
-							  <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-							  <li class="nav-item "><a class="nav-link" href="#">About</a></li>
-							  <li class="nav-item "><a class="nav-link" href="#">Service</a></li>
+							  <li class="nav-item "><a class="nav-link" href="https://viralsrakholiya.github.io/work/dorkar-theme-boostrap/">Home</a></li>
+							  <li class="nav-item "><a class="nav-link" href="#about">About</a></li>
+							  <li class="nav-item "><a class="nav-link" href="#service">Service</a></li>
 							  <li class="nav-item "><a class="nav-link" href="#">Portfolio</a></li>
-							  <li class="nav-item "><a class="nav-link" href="#">Blogs</a></li>
+							  <li class="nav-item "><a class="nav-link" href="#blog">Blogs</a></li>
 							  <li class="nav-item "><a class="nav-link" href="#">Pages</a></li>
-							  <li class="nav-item "><a class="nav-link" href="#">Contact</a></li>
+							  <li class="nav-item "><a class="nav-link" href="#contact">Contact</a></li>
 							</ul>
 						  </div>
 					</nav>
@@ -176,7 +178,7 @@
 	
 	<!-- about us section -->
 	
-	<section class="about">
+	<section class="about" id="about">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-xl-6 col-lg-6 col-md-5 d-xl-flex d-lg-flex d-block align-items-center">
@@ -267,7 +269,7 @@
 	
 	<!-- service section -->
 	
-	<section class="service">
+	<section class="service" id="service">
 		<div class="container">		
 			<div class="heading">
 				<p>SERVICE</p>
@@ -553,7 +555,7 @@
 	
 	<!-- blog section -->
 	
-	<section class="blog">
+	<section class="blog" id="blog">
 		<div class="container">
 			<div class="heading">
 				<p>FROM BLOG</p>
@@ -615,7 +617,7 @@
 				</div>
 			</div>
 			<div class="all-blog d-flex justify-content-center">
-				<a href="#" class="my-btn">See All Blog</a> 
+				<a href="#" class="my-btn"> All Blog</a> 
 			</div>
 		</div>	
 	</section>
@@ -623,7 +625,7 @@
 	
 	<!-- contact us section -->
 	
-	<section class="contact">
+	<section class="contact" id="contact">
 		<div class="container">
 			<div class="heading">
 				<p>CONTACT</p>
@@ -637,7 +639,7 @@
 				</div>
 				<div class="col-xl-6 col-lg-7 col-md-7">
 					<form class="m-auto d-block">
-						<div class="inner-contact-row">
+						<div class="inner-contact-row d-flex flex-wrap">
 							<div class="col-xl-6 col-lg-6">
 								<input type="text" placeholder="Enter Your Name" required />
 							</div>
@@ -749,9 +751,38 @@
 				</div>
 				</div>			
 			</div>
-		
-		
 		</div>
-	</footer>	
+	</footer>
+
+
+
+	<!-- Scroll top button -->
+	
+	
+	
+	<button onclick="topFunction()" id="mybtn"><i class="fas fa-arrow-up"></i></button>
+
+	<script>
+		var mybutton = document.getElementById("mybtn");
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+
+	
+
+	
 </body>
 </html>
