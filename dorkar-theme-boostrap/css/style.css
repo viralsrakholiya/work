@@ -59,10 +59,10 @@ a:hover{
 	bottom:30px;
 	right:30px;
 	outline:none;
-	height:50px;
-	line-height:50px;
-	font-size:20px;
-	padding:0px 15px;
+	height:40px;
+	line-height:40px;
+	font-size:17px;
+	padding:0px 10px;
 	border-radius:3px;
 	color:#fff;
 	background: linear-gradient(45deg, #18469a, #6493e7);
