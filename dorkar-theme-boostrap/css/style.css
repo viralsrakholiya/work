@@ -4,6 +4,7 @@ html{
 *{
 	box-sizing:border-box;
 }
+
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
 	position:relative;
 	width:100%;
@@ -16,6 +17,10 @@ button{
 }
 :root{
 	--main:#3e77e2;
+}
+::selection{
+	background:var(--main);
+	color:#fff;
 }
 
 body{
@@ -59,10 +64,10 @@ a:hover{
 	bottom:30px;
 	right:30px;
 	outline:none;
-	height:40px;
-	line-height:40px;
-	font-size:17px;
-	padding:0px 10px;
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	padding:0px 15px;
 	border-radius:3px;
 	color:#fff;
 	background: linear-gradient(45deg, #18469a, #6493e7);
@@ -1312,7 +1317,7 @@ footer .links ul li i{
 
 
 
-@media (max-width: 580px){
+@media (max-width: 576px){
 	
 	.container{
 		max-width:540px;
@@ -1354,17 +1359,18 @@ footer .links ul li i{
 	.banner-inner-text {
 		padding: 100px 0;
 	}
-	.banner-inner-text h1 {
+	.banner-inner-text h1{
 		text-align:center;	
 		font-size:32px;
 		line-height:32px;
 		margin-bottom:20px;
 	}
 	
-	.banner-inner-text p {
+	.banner-inner-text p{
 		text-align:center;	
 		margin-bottom:40px;
 	}
+	
 	.button-part{
 		justify-content:center;
 	}
@@ -1569,6 +1575,295 @@ footer .links ul li i{
 		color:#fff;
 	}
 }
+
+
+
+@media (max-width: 768px) and (min-width: 576px) {
+	.container{
+		max-width:720px;
+	}
+	.top-header{
+		display:none;
+	}
+	.navbar{
+		margin-top:25px;
+	}
+	.nav-link:before{
+		width:60px;
+	}
+	.nav-link:after{
+		width:60px;
+	}
+	nav li a:hover:before{
+		width:60px;
+	}
+	nav li a:hover:after{
+		width:60px;
+	}
+	.banner .part-image{
+		margin:0;
+	}
+	.features{
+		padding:0;
+	}
+	.inner-feature{
+		width:370px;
+		margin:0 auto 50px auto;
+		padding:10px;
+	}
+	.about .part-image{
+		width:400px;
+		margin:0 auto 50px auto;
+	}
+	.about{
+		padding-bottom:80px;
+	}
+	.counter{
+		padding-top:50px;
+		padding-bottom:0px;
+	}
+	.counter .counter-text{
+		margin-bottom:50px;
+	}
+	.counter .counter-text .text h2{
+		margin-bottom:0;
+		font-size:35px;
+	}
+	.counter .counter-text .text p{
+		font-size:20px;
+		line-height:40px;
+	}
+	.service{
+		padding-top:100px;
+		padding-bottom:0;	
+	}
+	.service .box{
+		width:370px;
+		margin: 0 auto 50px auto;
+		padding: 10px;
+	}
+	.why-choose{
+		padding-top:50px;
+		padding-bottom:20px;
+	}
+	.why-choose .part-img{
+		width:370px;
+		margin:0 auto 50px auto;
+	}
+	.team .single-team{
+		width:370px;
+		margin:0 auto 50px auto;
+	}
+	.prizing{
+		padding-bottom:0px;
+		padding-top:90px;
+	}
+	.prizing .single-table{
+		width:370px;
+		margin:0 auto 50px auto;
+	}
+	.blog{
+		padding:50px auto 0 auto;;
+	}
+	.blog .single-blog{
+		width:370px;
+		margin:0 auto 50px auto;
+	}
+	.contact{
+		padding-bottom:90px;
+	}
+	.contact .part-img{
+		width:370px;
+		margin:0 auto 50px auto;
+	}
+	.subscribe-main {
+		margin-bottom:60px;
+	}
+	.subscribe .subscribe-main form{
+		width:370px;
+		display:block;
+		margin:0 auto;
+		background:transparent;
+	}
+	.subscribe .subscribe-main form input{
+		height:45px;
+		margin-bottom:20px;
+		border-radius:5px;
+	}
+	.subscribe .subscribe-main form button{
+		width:100%;
+	}
+	footer{
+		background-image:url('../images/section-bg.png');
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		padding-top:60px;
+	}
+	footer .main-footer{
+		padding-bottom:10px;		
+	}
+	footer .main-footer .f-footer{
+		padding:0 20px;
+		margin-bottom:50px;
+	}
+	footer .main-footer .links{
+		padding:0 20px;
+		margin-bottom:50px;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+
+	.container{
+		max-width:960px;
+	}
+	.top-header{
+		display:none;
+	}
+	.navbar{
+		margin-top:25px;
+	}
+	.nav-link:before{
+		width:60px;
+	}
+	.nav-link:after{
+		width:60px;
+	}
+	nav li a:hover:before{
+		width:60px;
+	}
+	nav li a:hover:after{
+		width:60px;
+	}
+	.banner .part-image{
+		margin:0;
+	}
+	.features{
+		padding-top:60px;
+		padding-bottom:30px;
+	}
+	.features .inner-feature{
+		margin-bottom:30px;
+		padding:10px;
+	}
+	.features .inner-feature h3{
+		font-size:22px;
+		line-height:32px;
+	}
+	.features .inner-feature p{
+		font-size:15px;
+		line-height:25px;		
+	}
+	.about{
+		padding-bottom:60px;
+	}
+	.about .part-image{
+		margin-left:0;
+	}
+	.counter{
+		padding-top:60px;
+		padding-bottom:20px;
+	}
+	.counter .counter-text{
+		margin-bottom:40px;
+		padding-left:20%;		
+	}
+	.counter .counter-text .text h2{
+		line-height:40px;
+		font-size:30px;		
+	}
+	.counter .counter-text .text p{
+		font-size:15px;
+		line-height:25px;
+	}
+	.service{
+		padding-top:60px;
+		padding-bottom:30px;
+	}
+	.service .box{
+		padding:20px;	
+	}
+	.service .box h3{
+		font-size:22px;
+		line-height:32px;
+	}
+	.service .box p{
+		font-size:15px;
+		line-height:25px;
+	}
+	.why-choose .part-img{
+		margin-left:0;
+	}
+	.why-choose .part-text .single-box{
+		margin-bottom:30px;
+		display:block;
+	}
+	.why-choose .part-text .single-box .icon{
+		margin-bottom:20px;
+	}
+	.why-choose .part-text .single-box h4{
+		font-size:22px;
+		line-height:32px;
+	}
+	.why-choose .part-text .single-box p{
+		font-size:15px;
+		line-height:25px;
+	}
+	.team{
+		padding-bottom:30px;
+	}
+	.team .single-team{
+		margin-bottom:30px;
+	}
+	.prizing{
+		padding-top:90px;
+	}
+	.prizing .single-table{
+		padding:25px 0;
+		margin-bottom:30px;
+	}
+	.contact{
+		padding:60px 0;
+	}
+	.subscribe-main{
+		margin-bottom:60px;
+	}
+	.subscribe form{
+		margin:0 20px;
+	}
+	footer{
+		background-image:url('../images/section-bg.png');
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		padding-top:60px;
+	}
+	footer .main-footer{
+		padding-bottom:10px;
+	}
+	footer .main-footer .f-footer{
+		padding:0 20px;
+		margin-bottom:50px;
+	}
+	footer .main-footer .links{
+		padding:0 20px;
+		margin-bottom:50px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+	.features .inner-feature{
+		padding:25px;
+	}
+	.service .box h3{
+		font-size:23px;
+	}
+	.team .single-team .social a {
+		margin:0 1px;
+	}
+}
+
 
 
 
