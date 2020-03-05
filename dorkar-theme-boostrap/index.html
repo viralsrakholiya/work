@@ -3,10 +3,8 @@
 <head>
 	<title> Dorkar || Home Page </title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css" />
 	<link href="images/favicon.png" rel="icon" type="icon/image" />
-	
-	<script src="js/main.js"></script>
-	
 	
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -65,7 +63,7 @@
 				</div>
 			</div>		
 		</div>
-		<div class="bottom-header">		
+		<div class="bottom-header animated flipInX fixed-header">		
 			<div class="container">	
 				<div class="bottom">			
 					<nav class="navbar navbar-expand-lg navbar-light ">
@@ -84,9 +82,8 @@
 							  <li class="nav-item "><a class="nav-link" href="https://viralsrakholiya.github.io/work/dorkar-theme-boostrap/">Home</a></li>
 							  <li class="nav-item "><a class="nav-link" href="#about">About</a></li>
 							  <li class="nav-item "><a class="nav-link" href="#service">Service</a></li>
-							  <li class="nav-item "><a class="nav-link" href="#">Portfolio</a></li>
 							  <li class="nav-item "><a class="nav-link" href="#blog">Blogs</a></li>
-							  <li class="nav-item "><a class="nav-link" href="#">Pages</a></li>
+							  <li class="nav-item "><a class="nav-link" href="#team">Our Team</a></li>
 							  <li class="nav-item "><a class="nav-link" href="#contact">Contact</a></li>
 							</ul>
 						  </div>
@@ -106,29 +103,24 @@
       <!-- Modal Header -->
 		<form>
 			<div class="modal-header">
-				<h4 class="modal-title  text-uppercase">Sign In</h4>
+				<h4 class="modal-title">Sign Up</h4>
 				<button type="button" class="close" data-dismiss="modal">×</button>
 			</div>
 		  
 		  <!-- Modal body -->
 			<div class="modal-body">
 				<label>Enter Your Name:</label><br/>
-				<input type="text"   required   class="input100" placeholder="Enter your Name"/><br/>
+				<input type="text"   required   class="input100" placeholder="Enter Your Name"/><br/>
 				<label>Enter Your E-mail:</label><br/>
-				<input type="email" required class="input100" placeholder="Enter your E-mail"/><br/>
+				<input type="email" required class="input100" placeholder="Enter Your E-mail"/><br/>
 				<label>Enter Your Phone:</label><br/>
 				<input type="number" required class="input100" placeholder="Enter your Mobile Number"/><br/>
 			</div>
 		  
 		  <!-- Modal footer -->
-			<div class="mainfooter d-flex">
-				<div class="modal-footer ">
-				  <button  type="submit" class="btn btn-success">Submit</button>
-				</div>
-				
-				<div class="modal-footer ">
-				  <button type="button" class="btn btn-danger" data-dismiss="modal">closes</button>
-				</div>
+			<div class="mainfooter d-flex justify-content-center">
+				  <button  type="submit" class="btn btn-success mr-3">Submit</button>				
+				  <button type="button" class="btn btn-danger ml-3" data-dismiss="modal">close</button>
 			</div>
 		</form>
 	</div>
@@ -145,7 +137,7 @@
       <!-- Modal Header -->
 		<form>
 			<div class="modal-header">
-				<h4 class="modal-title  text-uppercase">Sign In</h4>
+				<h4 class="modal-title">Sign In</h4>
 				<button type="button" class="close" data-dismiss="modal">×</button>
 			</div>
 		  
@@ -158,14 +150,9 @@
 			</div>
 		  
 		  <!-- Modal footer -->
-			<div class="mainfooter d-flex">
-				<div class="modal-footer ">
-				  <button  type="submit" class="btn btn-success">Submit</button>
-				</div>
-				
-				<div class="modal-footer ">
-				  <button type="button" class="btn btn-danger" data-dismiss="modal">closes</button>
-				</div>
+			<div class="mainfooter d-flex justify-content-center">
+			    <button  type="submit" class="btn btn-success mr-3">Submit</button>
+				<button type="button" class="btn btn-danger ml-3" data-dismiss="modal">close</button>
 			</div>
 		</form>
 	</div>
@@ -219,7 +206,7 @@
 						<p>	Lorem ipsum dolor sit amet consectetur
 							adipisicing elit. Esse, nostrum fuga? Dictafacilis earum.
 						</p>
-						<a href="#">read more...</a>						
+						<a href="javascript:void(0);">read more...</a>						
 					</div>				
 				</div>
 				
@@ -230,7 +217,7 @@
 						</div>
 						<h3>Perfect Way</h3>
 						<p>	Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nostrum fuga? Dicta facilis earum.</p>
-						<a href="#">read more...</a>						
+						<a href="javascript:void(0);">read more...</a>						
 					</div>				
 				</div>
 				
@@ -244,7 +231,7 @@
 							adipisicing elit. Esse, nostrum fuga? Dicta
 							facilis earum.
 						</p>
-						<a href="#">read more...</a>						
+						<a href="javascript:void(0);">read more...</a>						
 					</div>				
 				</div>					
 			</div>		
@@ -255,6 +242,10 @@
 	
 	<section class="about" id="about">
 		<div class="container">
+			<div class="heading">
+				<p>ABOUT US</p>
+				<h2>WHAT WE DO</h2>			
+			</div>
 			<div class="row justify-content-between">
 				<div class="col-xl-6 col-lg-6 col-md-5 d-xl-flex d-lg-flex d-block align-items-center">
 					<div class="part-image">
@@ -276,7 +267,7 @@
 							<li><i class="fas fa-certificate"></i>ipsum dolor consectetur</li>
 							<li><i class="fas fa-certificate"></i>ipsum dolor</li>
 						</ul>
-						<a href="#" class="my-btn">learn more</a>
+						<a href="javascript:void(0);" class="my-btn">learn more</a>
 					</div>			
 				</div>			
 			</div>			
@@ -462,7 +453,7 @@
 	
 	<!-- team section -->
 	
-	<section class="team">
+	<section class="team" id="team">
 		<div class="container">
 			<div class="heading">
 				<p>PERSON OF OUR COMPANY</p>
@@ -480,10 +471,10 @@
 							<p>founder</p>
 						</div>
 						<div class="social">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>						
-							<a href="#"><i class="fab fa-twitter"></i></a>						
-							<a href="#"><i class="fab fa-instagram"></i></a>						
-							<a href="#"><i class="fab fa-skype"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-skype"></i></a>						
 						</div>
 					</div>
 				</div>
@@ -497,10 +488,10 @@
 							<p>CO FOUNDER</p>
 						</div>
 						<div class="social">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>						
-							<a href="#"><i class="fab fa-twitter"></i></a>						
-							<a href="#"><i class="fab fa-instagram"></i></a>						
-							<a href="#"><i class="fab fa-skype"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-skype"></i></a>						
 						</div>
 					</div>
 				</div>
@@ -514,10 +505,10 @@
 							<p>MANAGER</p>
 						</div>
 						<div class="social">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>						
-							<a href="#"><i class="fab fa-twitter"></i></a>						
-							<a href="#"><i class="fab fa-instagram"></i></a>						
-							<a href="#"><i class="fab fa-skype"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-skype"></i></a>						
 						</div>
 					</div>
 				</div>
@@ -531,10 +522,10 @@
 							<p>CEO</p>
 						</div>
 						<div class="social">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>						
-							<a href="#"><i class="fab fa-twitter"></i></a>						
-							<a href="#"><i class="fab fa-instagram"></i></a>						
-							<a href="#"><i class="fab fa-skype"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>						
+							<a href="javascript:void(0);"><i class="fab fa-skype"></i></a>						
 						</div>
 					</div>
 				</div>
@@ -554,8 +545,8 @@
 			</div>
 			<div class="price-nav">
 				<ul class="nav-border">
-					<li><a href="#" class="nav-link active">Monthly</a></li>
-					<li><a href="#" class="nav-link ">Yearly</a></li>
+					<li><a href="javascript:void(0);" class="nav-link active">Monthly</a></li>
+					<li><a href="javascript:void(0);" class="nav-link ">Yearly</a></li>
 				</ul>			
 			</div>
 			<div class="row">
@@ -576,7 +567,7 @@
 							</ul>
 						</div>
 						<div class="bottom">
-							<a href="#" class="my-btn">Get Started</a>
+							<a href="javascript:void(0);" class="my-btn">Get Started</a>
 						</div>					
 					</div>				
 				</div>
@@ -597,7 +588,7 @@
 							</ul>
 						</div>
 						<div class="bottom">
-							<a href="#" class="my-btn">Get Started</a>
+							<a href="javascript:void(0);" class="my-btn">Get Started</a>
 						</div>					
 					</div>
 				</div>
@@ -618,7 +609,7 @@
 							</ul>
 						</div>
 						<div class="bottom">
-							<a href="#" class="my-btn">Get Started</a>
+							<a href="javascript:void(0);" class="my-btn">Get Started</a>
 						</div>					
 					</div>
 				</div>			
@@ -649,7 +640,7 @@
 							</ul>
 							<p>	Lorem, ipsum dolor sit amet	consectetur adipisicing elit.Rerum iste consectetur molestias a atque voluptatibus aspernatur eum.
 							</p>
-							<a href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+							<a href="javascript:void(0);">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>			
 				</div>
@@ -667,7 +658,7 @@
 							</ul>
 							<p>	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum iste consectetur molestias a atque voluptatibus aspernatur eum.
 							</p>
-							<a href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+							<a href="javascript:void(0);">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>			
 				</div>
@@ -685,13 +676,13 @@
 							</ul>
 							<p>	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum iste consectetur molestias a atque voluptatibus aspernatur eum.
 							</p>
-							<a href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+							<a href="javascript:void(0);">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>			
 				</div>
 			</div>
 			<div class="all-blog d-flex justify-content-center">
-				<a href="#" class="my-btn"> All Blog</a> 
+				<a href="javascript:void(0);" class="my-btn"> All Blog</a> 
 			</div>
 		</div>	
 	</section>
@@ -770,10 +761,10 @@
 							<p><i class="fas fa-at"></i> example@mail.com </p>
 							<p><i class="fas fa-phone-alt"></i> +12 345 678 90 </p>
 							<div class="social">
-								<a href="#"><i class="fab fa-facebook-f"></i></a>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-								<a href="#"><i class="fab fa-instagram"></i></a>
-								<a href="#"><i class="fab fa-skype"></i></a>
+								<a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
+								<a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+								<a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>
+								<a href="javascript:void(0);"><i class="fab fa-skype"></i></a>
 							</div>						
 						</div>
 					</div>	
@@ -781,11 +772,11 @@
 						<div class="links">
 							<h2>Company</h2>
 							<ul>
-								<li><a href="#"><i class="fas fa-caret-right"></i>About Us</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Our Team</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Products</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Service</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Contact</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>About Us</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Our Team</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Products</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Service</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Contact</a></li>
 							</ul>									
 						</div>					
 					</div>
@@ -794,11 +785,11 @@
 						<div class="links">
 							<h2>Services</h2>
 							<ul>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Digital Marketing</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Business Analysis</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>How It Works</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Fix & Flip</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Social Activation</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Digital Marketing</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Business Analysis</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>How It Works</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Fix & Flip</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Social Activation</a></li>
 							</ul>									
 						</div>					
 					</div>
@@ -807,11 +798,11 @@
 						<div class="links">
 							<h2>Quick Links</h2>
 							<ul>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Contact Us</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Terms & Condition</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Latest News</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Privacy Policy</a></li>
-								<li><a href="#"><i class="fas fa-caret-right"></i>Help Desk</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Contact Us</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Terms & Condition</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Latest News</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Privacy Policy</a></li>
+								<li><a href="javascript:void(0);"><i class="fas fa-caret-right"></i>Help Desk</a></li>
 							</ul>									
 						</div>					
 					</div>
@@ -820,7 +811,7 @@
 			<div class="copy-right">	
 				<div class="container">
 					<div class="row">
-					<p class="col-xl-6 col-12 text-center">© 2020 all rights reserved by <a href="#">Dorkar</a></p>
+					<p class="col-xl-6 col-12 text-center">© 2020 all rights reserved by <a href="javascript:void(0);">Dorkar</a></p>
 					<p class="col-xl-6 col-12 text-center">create by <a href="https://viralsrakholiya.github.io/work/">Viral Rakholiya</a></p>
 				</div>
 				</div>			
@@ -854,6 +845,24 @@
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
 	}
+	
+	
+	   $(window).on('scroll', function(){
+        if($(window).scrollTop() > 300) {
+            $('.bottom-header').addClass('animated flipInX fixed-header');
+            // scroll to top show
+            $('.scroll').fadeIn();
+            $('.scroll').addClass('active');
+            if ($(window).width() < 992) {
+                $('.bottom-header').removeClass('animated flipInX fixed-header');
+            }
+        } else {
+            $('.bottom-header').removeClass('animated flipInX fixed-header');
+            // scroll to top show
+            $('.scroll').fadeOut();
+            $('.scroll').removeClass('active');
+        }
+    });
 </script>
 
 	

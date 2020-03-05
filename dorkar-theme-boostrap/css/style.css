@@ -75,7 +75,55 @@ a:hover{
 }
 /* default css close */
 
+/* modal css start */
+
+
+.modal-header h4{
+	margin-bottom:0px;
+}
+
+
+#myModal form input:last-child {
+    margin-bottom: 10px;
+}
+
+#signin form input:last-child {
+    margin-bottom: 10px;
+}
+
+#myModal ::placeholder{
+	font-weight:normal;
+}
+#signin ::placeholder{
+	font-weight:normal;
+}
+
+.mainfooter{
+	margin-bottom:36px;	
+}
+
+.modal-header button{
+	outline:none!important;
+}
+
+/* modal css ends */
+
 /* heading */
+
+header .bottom-header.fixed-header{
+	position:fixed;
+	background:#17172f;
+	width:100%;
+	top:0;
+	box-shadow:0px 0px 20px -5px #000;
+}
+
+.animated{
+	animation-duration:1s;
+}
+.fadeInDown{
+	animation-name:flipInX;
+}
 
 .heading{
 	text-align:center;
@@ -216,7 +264,6 @@ a{
 	position:relative;
 }
 /* navigation hover effect start */
-
 
 .nav-link:before{
 	position: absolute;
@@ -1125,9 +1172,9 @@ nav li a:hover:after{
 }
 
  form input{
-	height:55px;
+	height:45px;
 	width:100%;
-	margin-bottom:30px;
+	margin-bottom:20px;
 	border:1px solid rgba(0,0,0,0.2);
 	border-radius:5px;
 	padding:0 10px;
@@ -1152,7 +1199,7 @@ form textarea{
 	font-size:17px;
 }
 
-::placeholder{
+.contact ::placeholder{
 	color:rgba(0,0,0,0.5);
 	font-size:17px;
 }
@@ -1171,6 +1218,10 @@ form textarea{
     position: relative;
     margin-bottom: -130px;
     overflow: hidden;
+}
+
+.subscribe-main ::placeholder{
+	color:rgba(0,0,0,0.5);
 }
 
 .subscribe-main .heading h2{
